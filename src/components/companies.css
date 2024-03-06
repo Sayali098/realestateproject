@@ -1,0 +1,13 @@
+.c-container{
+display: flex;
+justify-content: space-around;
+/* gap:1rem; */
+}
+
+@media screen and  (max-width:460px) {
+    .c-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
